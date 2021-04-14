@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-  height: 500px;
+  height: 490px;
   width: 320px;
   padding: 3em;
 }
@@ -43,11 +43,13 @@ p {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 0.95rem;
   color: var(--color-white);
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 .one {
   background: var(--color-orange);
+  border-top-left-radius: 0.6em;
+  border-bottom-left-radius: 0.6em;
 }
 .two {
   background: var(--color-cyan);
@@ -55,10 +57,28 @@ p {
 
 .three {
   background: var(--color-dark);
+  border-top-right-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
 }
 
 button {
-  padding: 1.3em;
+  margin-top: 50px;
+  padding: 1em;
   width: 145px;
-  border-radius: 25px;
+  border-radius: 28px;
+  border: none;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.butOne {
+  color: var(--color-orange);
+}
+
+.butTwo {
+  color: var(--color-cyan);
+}
+
+.butThree {
+  color: var(--color-dark);
 }
