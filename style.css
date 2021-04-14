@@ -1,3 +1,11 @@
+:root {
+  --color-orange: hsl(31, 77%, 52%);
+  --color-cyan: hsl(184, 100%, 22%);
+  --color-dark: hsl(179, 100%, 13%);
+  --color-white: hsla(0, 0%, 100%, 0.75);
+  --color-gray: hsl(0, 0%, 95%);
+}
+
 *,
 *:before,
 *:after {
@@ -5,7 +13,38 @@
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 15px;
+}
+.background {
+  background-color: var(--color-white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 500px;
+  width: 320px;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.one {
+  background: var(--color-orange);
+}
+.two {
+  background: var(--color-cyan);
+}
+
+.three {
+  background: var(--color-dark);
 }
