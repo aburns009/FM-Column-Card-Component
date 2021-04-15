@@ -63,24 +63,31 @@ p {
 
 button {
   margin-top: 50px;
-  padding: 1em;
+  padding: 1.3em;
   width: 145px;
   border-radius: 28px;
   border: none;
   font-size: 14px;
-  font-weight: 550;
+  font-weight: 600;
+}
+
+button:hover {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  cursor: pointer;
 }
 
 .butOne {
-  color: var(--color-orange);
+  color: hsl(31, 77%, 65%);
 }
 
 .butTwo {
-  color: var(--color-cyan);
+  color: hsl(184, 100%, 28%);
 }
 
 .butThree {
-  color: var(--color-dark);
+  color: hsl(179, 100%, 19%);
 }
 
 @media screen and (max-width: 970px) {
@@ -98,5 +105,8 @@ button {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0.6em;
     border-bottom-left-radius: 0.6em;
+  }
+  button {
+    margin-top: 20px;
   }
 }
