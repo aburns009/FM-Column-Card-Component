@@ -61,7 +61,7 @@ p {
   border-bottom-right-radius: 0.6em;
 }
 
-button {
+.but {
   margin-top: 50px;
   padding: 1.3em;
   width: 145px;
@@ -71,10 +71,10 @@ button {
   font-weight: 600;
 }
 
-button:hover {
+.but:hover {
   background: transparent;
   color: var(--color-white);
-  border: 2px solid var(--color-white);
+  box-shadow: 0 0 0 2px var(--color-white);
   cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ button:hover {
     border-bottom-right-radius: 0.6em;
     border-bottom-left-radius: 0.6em;
   }
-  button {
-    margin-top: 20px;
+  .but {
+    margin-top: 10px;
   }
 }
