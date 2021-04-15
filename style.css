@@ -82,3 +82,21 @@ button {
 .butThree {
   color: var(--color-dark);
 }
+
+@media screen and (max-width: 970px) {
+  .background {
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .one {
+    margin-top: 20em;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+    border-bottom-left-radius: 0;
+  }
+  .three {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.6em;
+    border-bottom-left-radius: 0.6em;
+  }
+}
