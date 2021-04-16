@@ -93,10 +93,10 @@ p {
 @media screen and (max-width: 970px) {
   .background {
     flex-direction: column;
-    overflow: scroll;
+    height: auto;
+    overflow-y: scroll;
   }
   .one {
-    margin-top: 20em;
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;
     border-bottom-left-radius: 0;
