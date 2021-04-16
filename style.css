@@ -62,6 +62,7 @@ p {
 }
 
 .but {
+  background: var(--color-gray);
   margin-top: 50px;
   padding: 1.3em;
   width: 145px;
