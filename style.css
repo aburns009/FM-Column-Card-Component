@@ -69,6 +69,7 @@ p {
   border: none;
   font-size: 14px;
   font-weight: 600;
+  -webkit-appearance: none;
 }
 
 .but:hover {
@@ -96,6 +97,9 @@ p {
     height: auto;
     overflow-y: scroll;
   }
+  .card {
+    height: 470px;
+  }
   .one {
     border-top-left-radius: 0.6em;
     border-top-right-radius: 0.6em;
@@ -107,6 +111,6 @@ p {
     border-bottom-left-radius: 0.6em;
   }
   .but {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
